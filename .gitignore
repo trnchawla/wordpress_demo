@@ -27,6 +27,7 @@ wp-content/mu-plugins/*/
 /wp-admin/
 /wp-includes/
 /wp-*.php
+!wp-config-sample.php
 /index.php
 /xmlrpc.php
 /license.txt
