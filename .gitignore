@@ -1,0 +1,86 @@
+# WordPress specific files
+wp-config.php
+.user.ini
+
+# WordPress content directory
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/cache/
+wp-content/backups/
+wp-content/advanced-cache.php
+wp-content/wflogs/
+wp-content/debug.log
+wp-content/plugins/hello.php
+wp-content/mu-plugins/*/
+
+# Plugin Strategy - Uncomment to ignore all plugins except specific ones
+# wp-content/plugins/*
+# !wp-content/plugins/your-custom-plugin/
+# !wp-content/plugins/another-custom-plugin/
+
+# Theme Strategy - Uncomment to ignore all themes except specific ones
+# wp-content/themes/*
+# !wp-content/themes/your-custom-theme/
+
+# WordPress core
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/xmlrpc.php
+/license.txt
+/readme.html
+
+# Sitemaps
+sitemap.xml
+sitemap.xml.gz
+
+# Configuration files
+*.env
+.env.*
+!.env.example
+
+# Log files
+*.log
+error_log
+debug.log
+
+# htaccess
+/.htaccess
+
+# Database files
+*.sql
+*.sqlite
+*.db
+
+# Backup files
+*.bak
+*.tmp
+*.zip
+*.tgz
+*.tar.gz
+backup-*/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Node/Build tools
+node_modules/
+npm-debug.log
+yarn-error.log
+/dist/
+/build/
+
+deployment-config.sh
+!deployment-config.sample.sh
